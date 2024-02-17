@@ -1,0 +1,274 @@
+/*---------------------------------
+        Footer CSS 
+-----------------------------------*/
+.footer-wrap{
+    background-color: var(--footerColor);
+    .footer-top{
+        position: relative;
+        z-index: 1;
+        .footer-shape-one,
+        .footer-shape-two{
+            position: absolute;
+            z-index: -1;
+            bottom: 0;
+        } 
+        .footer-shape-one{
+            left: 40px;
+        }
+        .footer-shape-two{
+            right: 0px;
+        }        
+    }
+    .footer-widget{
+        margin-bottom: 25px;
+        .footer-widget-title{
+            position: relative;
+            font-size: 24px;
+            line-height: 32px;
+            font-weight: 600;
+            margin-bottom: 22px;
+            display: block;
+            color: var(--whiteColor);
+            font-family: var(--secondaryFont);
+        }
+        .comp-desc{
+            margin: 30px 0 28px;
+            color: var(--offwhiteColor);
+        }
+        .footer-menu{
+            li{
+                margin-bottom: 10px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+                a{
+                    position: relative;
+                    font-weight: 400;
+                    color: var(--offwhiteColor);
+                    &:after{
+                        position: absolute;
+                        bottom: -2px;
+                        left: 0;
+                        content: "";
+                        width: 0;
+                        height: 1px;
+                        background-color: var(--primaryColor);
+                        visibility: hidden;
+                        opacity: 0;
+                        transition:var(--transition);
+                    }
+                    &:hover{
+                        color: var(--primaryColor);
+                        &:after{
+                            width: 100%;
+                            visibility: visible;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+        .social-profile{
+            li{
+                margin-right: 10px;
+                a{
+                    width: 34px;
+                    height: 34px;
+                    background-color: rgba(255, 255, 255, 0.08);
+                    i{
+                        font-size: 16px;
+                        color: var(--primaryColor);
+                    }
+                    &:hover{
+                        background-color: var(--primaryColor);
+                        i{
+                            color: var(--whiteColor);
+                        }
+                    }
+                }
+            }
+        }
+        .contact-info{
+            li{
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                margin-bottom: 22px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+                span{
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    width: 41px;
+                    height: 41px;
+                    border-radius: 50%;
+                    text-align: center;
+                    transition: var(--transition);
+                    margin-right: 12px;
+                    background: rgba(255, 255, 255, 0.06);
+                    box-shadow: 0px 0px 30px rgba(254, 74, 85, 0.09);
+                    i{
+                        color: var(--whiteColor);
+                        line-height: 0.8;
+                        display: block;
+                        margin: 0 auto;
+                        transition: var(--transition);
+                    }   
+                }
+                p,a{
+                    width: calc(100% - 53px);
+                    transition:var(--transition);
+                    display: block;
+                    margin: 0;
+                    color: var(--offwhiteColor);
+                }
+                &:hover{
+                    span{
+                        i{
+                            color: var(--primaryColor);
+                        }
+                    }
+                    a,p{
+                        color: var(--primaryColor);
+                    }
+                }
+            }
+        }
+    }
+    .copyright-text{
+        text-align: center;
+        position: relative;
+        padding: 27px 0;
+        margin: 0;
+        color: #D3D3D3;
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+        i{
+            position: relative;
+            line-height: 0.8;
+            top: 2px;
+            margin-right: 4px;
+        }
+        a,span{
+            color: var(--primaryColor);
+        }
+    }
+}
+//Responsive CSS
+@media only screen and (max-width:767px){
+    .footer-wrap {
+        &.footer-one{
+            padding-top: 140px;
+        }
+        .footer-widget {
+            .footer-widget-title {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+            .comp-desc{
+                margin: 20px 0;
+            }
+            .contact-info{
+                li{
+                    margin-bottom: 10px;
+                }
+                p,a{
+                    font-size: 14px;
+                }
+            }
+            .footer-menu{
+                li{
+                    margin-bottom: 8px;
+                    a{
+                        font-size: 14px;
+                        i{
+                            font-size: 16px;
+                            top: 2px;
+                        }
+                    }
+                }
+            }
+        }
+        .copyright-text{
+            font-size: 14px;
+            text-align: center;
+            padding: 20px 0;
+            a,span{
+                font-size: 14px;
+            }
+        }
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .footer-wrap{
+        &.footer-one{
+            padding-top: 135px;
+        }
+        .footer-widget{
+            .footer-menu{
+                li{
+                    margin-bottom: 10px;
+                }
+            }
+            .contact-info{
+                li{
+                    margin-bottom: 18px;
+                }
+            }
+        }
+        .copyright-text{
+            font-size: 15px;
+            a,span{
+                font-size: 15px;
+            }
+        }
+    }
+}
+@media only screen and (min-width:992px){
+    .footer-wrap{
+        &.footer-one{
+            padding-top: 124px;
+        }
+    }
+}
+@media only screen and (min-width:1200px) and (max-width:1399px){
+    .footer-wrap{
+        .footer-widget{
+            .comp-desc{
+                padding-right: 30px;
+            }
+        }
+    }
+}
+@media only screen and (min-width:1600px){
+    .footer-wrap{
+        .footer-top{
+            .row{
+                &>div{
+                    &:nth-child(2){
+                        .footer-widget{
+                            margin-left: 50px;
+                        }
+                    }
+                    &:nth-child(3){
+                        .footer-widget{
+                            margin-left: 72px;
+                        }
+                    }
+                    &:nth-child(4){
+                        .footer-widget{
+                            margin-left: 25px;
+                            width: calc(100% + 25px);
+                        }
+                    }
+                }
+            }
+            .footer-widget{
+                .comp-desc{
+                    max-width: 80%;
+                }
+            }
+        }
+    }
+}

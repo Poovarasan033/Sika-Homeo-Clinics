@@ -1,0 +1,2126 @@
+@media only screen and (max-width:575px) {
+    .xs-center {
+        text-align: center;
+    }
+    .xs-none {
+        display: none;
+    }
+    .smt-15{
+        margin-top: 15px!important;
+    }
+    .breadcrumb-wrap {
+        .breadcrumb-menu{
+            li{
+                font-size: 14px;
+                a{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .page-nav {
+        margin-top: 5px;
+        li{
+            &:first-child{
+                a{
+                    i{
+                        left: 0;
+                    }
+                }
+            }
+            &:last-child{
+                a{
+                    i{
+                        right: 0;
+                    }
+                }
+            }
+            a{
+            width: 45px;
+            height: 45px;
+            font-size: 16px;
+                i{
+                    font-size: 10px;
+                    line-height: 35px;
+                    top:0px;
+                }
+                img{
+                    max-width: 18px;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+    
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .container-fluid{
+        max-width: 540px;
+        padding:0 15px;
+    }
+   
+}
+
+@media only screen and (max-width: 767px) {
+    p,input,textarea {
+        font-size: 14px;
+    }
+    .sm-none {
+        display: none !important;
+    }
+    .mb-50 {
+        margin-bottom: 30px !important;
+    }
+    .mt-40{
+        margin-top: 30px!important;
+    }
+    .pt-100 {
+        padding-top: 50px
+    }
+    .pt-45 {
+        padding-top: 25px;
+    }
+    .pt-70 {
+        padding-top: 50px!important;
+    }
+    .pb-25 {
+        padding-bottom: 5px!important;
+    }
+    .pb-45 {
+        padding-bottom: 25px
+    }
+    .pb-50 {
+        padding-bottom: 0px
+    }
+    .pb-60 {
+        padding-bottom: 15px;
+    }
+    .pb-100 {
+        padding-bottom: 50px;
+    }
+    .mt-100 {
+        margin-top: 50px!important;
+    }
+    .mb-100 {
+        margin-bottom: 50px!important;
+    }
+    .ptb-70 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .ptb-100 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pb-70 {
+        padding-bottom: 20px;
+    }
+    .pb-75 {
+        padding-bottom: 25px;
+    }
+    .pb-50 {
+        padding-bottom: 0px
+    }
+    .pt-75 {
+        padding-top: 25px
+    }
+    .mb-40 {
+        margin-bottom: 25px !important;
+    }
+    .row.mb-50{
+        margin-bottom: 30px!important;
+    }
+    .link-one,
+    .link-two,
+    .link-three,
+    .link-four{
+        font-size: 14px;
+    }
+    .btn-one,
+    .btn-two{
+        font-size: 14px;
+        padding: 16px 22px 13px;
+        i{
+            font-size: 16px;
+            top: 3px;
+            margin-left: 5px;
+        }
+    }
+    .back-to-top {
+        font-size: 20px;
+        width: 35px;
+        height: 35px;
+        line-height: 32px;
+        right: 10px;
+
+        i {
+            font-size: 18px;
+        }
+    }
+    .section-title-one,
+    .content-title-one{
+        span{
+            font-size: 14px;
+        }
+        h2{
+            font-size: 25px;
+            line-height: 35px;
+        }
+        p{
+            margin: 8px 0 0;
+        }
+    }
+    .breadcrumb-wrap{
+        padding: 120px 0 55px;
+        .br-shape-one,
+        .br-shape-two{
+            display: none;
+        }
+        .breadcrumb-content{
+            h2{
+                font-size: 28px;
+                line-height: 32px;
+                margin: 0 0 10px;
+            }
+        }
+        .breadcrumb-menu {
+            li {
+                font-size: 14px;
+                a{
+                    font-size: 14px;
+                }
+                &:after {
+                    top: 2px;
+                }
+            }
+        }
+    }
+    //hero CSS
+    .hero-wrap{
+        &.hero-one{
+             .hero-slide-item {
+                .hero-video {
+                    top: 30px;
+                    left: 30px;
+                    p{
+                        color: var(--whiteColor);
+                    }
+                }
+             }
+            .hero-slide-item{
+                padding: 300px 0 300px;
+                position: relative;
+                &:before{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    content: "";
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0.4);
+                    z-index: 0;
+                }
+                .hero-content{
+                    max-width: 100%;
+                    padding: 25px 25px 25px 0;
+                    background-color: var(--whiteColor);
+                    .hero-bg-shape-one,
+                    .hero-bg-shape-two,
+                    .hero-bg-shape-three,
+                    &:after{
+                        display: none;
+                    }
+                    span{
+                        padding-left: 35px;
+                        font-size: 14px;
+                        &:before{
+                            top: 12px;
+                            width: 25px;
+                        }
+                    }
+                    h1{
+                        font-size: 28px;
+                        line-height: 37px;
+                        margin-bottom: 18px;
+                    }
+                    .hero-btn{
+                        .client-likes{
+                            width: 100%;
+                            margin-left: 0px;
+                            margin-top: 20px;
+                            ul{
+                                margin-right: 15px;
+                                li{
+                                    margin-left: -15px;
+                                    width: 42px;
+                                    height: 42px;
+                                    &:first-child{
+                                        margin-left: 0;
+                                    }
+                                }
+                            }
+                            h6{
+                                margin: 0;
+                                font-size: 16px;
+                                line-height: 16px;
+                                font-weight: 600;
+                                color: var(--secondaryColor);
+                                font-family: var(--bodyFont);
+                                span{
+                                    display: block;
+                                    font-size: 21px;
+                                    line-height: 32px;
+                                    color: var(--primaryColor);
+                                    font-family: var(--secondaryFont);
+                                    font-weight: 600;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.hero-two{
+            padding: 120px 0 0;
+            .hero-content{
+                padding-top: 0;
+                &>span{
+                    font-size: 14px;
+                }
+                h1{
+                    font-size: 28px;
+                    line-height: 35px;
+                    img{
+                        max-width: 80px;
+                    }
+                }
+                .client-likes{
+                    margin-bottom: 15px;
+                    ul{
+                        margin-right: 15px;
+                        li{
+                            width: 42px;
+                            height: 42px;
+                        }
+                    }
+                    h6{
+                        font-size: 14px;
+                    }
+                }
+                .hero-doc-card{
+                    margin:20px 0 30px;
+                    max-width: 100%;
+                    padding: 25px 20px;
+                    .doc-info{
+                        h3{
+                            font-size: 18px;
+                        }
+                    }
+                    .ratings{
+                        margin: 0;
+                    }
+                    .btn-three{
+                        margin: 15px 0 10px;
+                        font-size: 14px;    
+                    }
+                }
+            }
+            .hero-img-wrap{
+                img{
+                    margin-bottom: -52px;
+                }
+            }
+        }
+        &.hero-three{
+            padding: 125px 0 265px;
+            .hero-content{
+                &>span{
+                    font-size: 14px;
+                    margin: 0 0 10px;
+                }
+                h1{
+                    font-size: 28px;
+                    line-height: 34px;
+                }
+            }
+            .hero-promo-wrap{
+                margin-top: 30px;
+                justify-content: center;
+                .circle-text{
+                    margin: 0 auto;
+                }
+                .hero-promo-box{
+                    width: 100%;
+                    .client-likes{
+                        padding: 6px 15px;
+                        ul{
+                            margin-right: 10px;
+                        }
+                        h6{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .hero-slider-one{
+        .hero-pagination{
+            position: relative;
+            top: auto;
+            bottom: 0;
+            text-align: center;
+            right: auto;
+            left: 0;
+            width: auto;
+            .swiper-pagination-bullet{
+                display: inline-block;
+                margin: 0 10px;
+            }
+        }
+    }
+    .hero-gallery-slider{
+        position: relative;
+        z-index: 1;
+        margin-top: -220px;
+    }
+    // New Demo
+    .banner-area-four {
+        .hero-items {
+            .banner-four-bg {
+                padding: {
+                    top: 60px;
+                    bottom: 60px;
+                };
+                .content {
+                    max-width: 100%;
+                    h1 {
+                        font-size: 30px;
+                        line-height: 40px;
+                        margin-bottom: 15px;
+                    }
+                    p {
+                        font-size: 14px;
+                        margin: 0 0 20px;
+                    }
+                }
+            }
+        }
+    }
+    //Team Card CSS
+    .team-card-one,
+    .team-card-two{
+        .team-img{
+            margin-bottom: 18px;
+        }
+    }
+    //Why Choose CSS
+    .wh-wrap-three {
+        .wh-content {
+            .wh-card-wrap {
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+            }
+        }
+    }
+     //Pricing Card CSS
+     .pricing-card {
+        .pricing-features {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            padding-left: 20px;
+        }
+    }
+    .promo-card{
+        min-height: 480px;
+        padding: 25px;
+        h3{
+            font-size: 28px;
+            line-height: 36px;
+        }
+    }
+    //Project Card CSS
+    .project-card{
+        .project-info{
+            width: calc(100% - 40px);
+            padding: 17px 25px 17px;
+            h3{
+                font-size: 22px;
+                line-height: 32px;
+            }
+        }
+    }
+    //Process Card CSS
+    .process-card-wrap{
+        grid-template-columns: 1fr;
+        grid-template-rows:1fr auto;
+        grid-gap: 23px;
+        overflow-x: hidden;
+    }
+    //Testimonial CSS
+    .testimonial-card-one,
+    .testimonial-card-four{
+        padding: 20px;
+        .client-info-wrap{
+            .client-img{
+                width: 65px;
+                height: 65px;
+                img{
+                    border-radius: 65%;
+                }
+            }
+            .client-info{
+                width: calc(100% - 75px);
+                margin-left: auto;
+            }
+            .rating{
+                width: 100%;
+                position: relative;
+                top: 0;
+                text-align: left;
+                margin: 15px 0 0;
+            }
+        }
+        .client-quote{
+            margin: 12px 0 7px;
+            font-size: 16px;
+        }
+    }
+    //About CSS
+    .about-wrap-one,
+    .about-wrap-two,
+    .about-wrap-three{
+        overflow-x: hidden;
+    }
+    .about-wrap-three{
+        .about-img-wrap{
+            .circle-text {
+                position: absolute;
+                width: 125px;
+                height: 125px;
+                top: 15px;
+                right:35%;
+                span{
+                    font-size: 40px;
+                }
+                text {
+                    font-size: 14px;
+                    letter-spacing: 5px;
+                }
+                svg {
+                    position: absolute;
+                    top: -52px;
+                    left: -53px;
+                    letter-spacing: 3px;
+                    width: 220px;
+                    height: 220px;
+                }
+            }
+        }
+        .about-content{
+            .counter-wrap{
+                background-color: var(--bgColor);
+                display: flex;
+                flex-wrap: wrap;
+                padding: 25px;
+                border-radius: 25px;
+                margin: 28px 0 30px;
+                padding: 25px;
+                .counter-card{
+                    width: 100%;
+                    margin-bottom: 25px;
+                    padding-right: 40px;
+                    &:last-child{
+                        padding-right: 0;
+                    }
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                    h2{
+                        font-size: 36px;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    .about-wrap-two{
+        .about-img-wrap{
+            .circle-text {
+                position: absolute;
+                width: 125px;
+                height: 125px;
+                top: 15px;
+                right:35%;
+                span{
+                    font-size: 40px;
+                }
+                text {
+                    font-size: 14px;
+                    letter-spacing: 5px;
+                }
+                svg {
+                    position: absolute;
+                    top: -52px;
+                    left: -53px;
+                    letter-spacing: 3px;
+                    width: 220px;
+                    height: 220px;
+                }
+            }
+        }
+    }
+    .help-wrap-two .help-img-wrap .help-img .help-promo-text {
+        padding: 20px 15px;
+        min-width: 250px;
+        font-size: 14px;
+        line-height: 25px;
+        left: 0;
+    }
+    //Video CSS
+    .video-bg,
+    .video-bg-two{
+        height: 400px;
+    }
+    //help Card CSS
+    .help-wrap{
+        .help-content{
+            .content-title-one{
+                margin-bottom: 25px;
+            }
+        }
+    }
+    .help-card{
+        padding: 20px 25px;
+    }
+    //Project Details CSS
+    .project-details-wrap {
+        .client-quote {
+            padding: 25px;
+            margin: 30px 0;
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+    //Testimonial CSS
+    .testimonial-card-three{
+        .client-img{
+            margin-bottom: 20px;
+            img{
+                width: 100%;
+            }
+        }
+        .client-quote{
+            margin: 15px 0 22px;
+        }
+        .quote-icon{
+            top: 65%;
+            max-width: 200px;
+        }
+    }
+    //Testimonial CSS
+    .testimonial-wrap-three{
+        .testimonial-btn{
+            bottom: 30px;
+            margin-bottom: 18px;
+            
+        }
+    }
+    .testimonial-wrap-two{
+        .testimonial-btn{
+            margin-top: 20px;
+        }
+    }
+    .testimonial-card-two{
+        .client-quote {
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+    //Feature Card CSS
+    .feature-card{
+        .feature-icon{
+            margin: 0 0 20px;
+        }
+        h3{
+            font-size: 22px;
+            margin: 0 0 12px;
+        }
+        p{
+            padding-right: 5px;
+        }
+    }
+    //Appointment CSS
+    .appointment-content {
+        .feature-list-wrap {
+            .feature-list {
+                width: 100%;
+            }
+        }
+    }
+    //Service Card CSS
+    .service-card-one{
+        .service-info{
+            padding: 20px 0 5px;
+        }
+    }
+    //Blog Card CSS
+    .blog-card-one{
+        .blog-title{
+            h3{
+                font-size: 20px;
+                line-height: 27px;
+            }
+        }
+    }
+    //Move Text CSS
+    .move-text-one,
+    .move-text-two,
+    .move-text-three{
+        padding: 50px 0;
+        ul{
+            li{
+                font-size: 22px;
+                line-height: 25px;
+                margin: 0 28px;
+                padding: 0 30px;
+                &:after{
+                    top: -2px;
+                    right: -62px;
+                    width: 40px;
+                    height: 42px;
+                }
+            }
+        }
+    }
+    //Service & Project Details CSS
+    .service-details-wrap,
+    .project-details-wrap{
+        .features-item-wrap {
+            margin: 25px 0 30px;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr auto;
+            grid-gap: 22px;
+        }
+    }
+    //Single Product CSS
+    .single-product-tablist{
+        .nav-item{
+            .nav-link{
+                font-size: 16px;
+            }
+        }
+    }
+    .search-result{
+        p{
+            font-size: 16px;
+        }
+        .search-box{
+            margin: 15px 0 20px;
+        }
+    }
+    .update-cart{
+        display: block;
+        width: 100%;
+        padding: 16px 20px 14px;
+    }
+    //Contact CSS
+    .contact-item-wrap{
+        .contact-item {
+            padding: 20px;
+            .contact-icon {
+                width: 70px;
+                height: 70px;
+                i {
+                    font-size: 36px;
+                }
+            }
+            .contact-info {
+                width: calc(100% - 90px);
+                margin-left: 20px;
+            }
+        }
+    }
+    .comp-map-area{
+        .comp-map{
+            height: 400px;
+        }
+    }
+    //Blog Details CSS
+    article,
+    .service-details-wrap,
+    .project-details-wrap,
+    .terms-wrap{
+        h1,h2,h3,h4,h5,h6{
+            margin-bottom: 15px;
+        }
+        p{
+            margin-bottom: 15px;
+        }
+        .content-feature-list,
+        .content-feature-list-two{
+            margin: 10px 0 25px;
+        }
+        ol{
+            margin-top: 15px;
+            margin-bottom: 25px;
+        }
+        h1{
+            font-size: 26px;
+       }
+       h2{
+            font-size: 24px;
+       }
+       h3{
+            font-size: 22px;
+       }
+       h4{
+            font-size: 20px;
+       }
+       h5{
+            font-size: 18px;
+       }
+       h6{
+            font-size: 16px;
+       }
+       ol{
+            li{
+                font-size: 14px;
+                margin-bottom: 10px;
+               &:last-child{
+                   margin-bottom: 0;
+               }
+           }    
+       }
+       ul{
+           li{
+               font-size: 14px;
+               margin-bottom: 10px;
+               &:last-child{
+                   margin-bottom: 0;
+               }
+            }    
+       }
+       .post-img{
+           margin-bottom: 20px;
+       }
+       .blog-metainfo{
+           margin-bottom: 5px;
+       }
+       .content-feature-list{
+          li{
+              i,ion-icon{
+                  font-size: 14px;
+                  top: 6px;
+              }
+          }
+       }
+    }
+    .post-author .post-author-info h4 {
+        font-size: 20px;
+    }
+    .wp-block-quote {
+        padding: 20px;
+        margin: 20px 0 20px;
+        p {
+            font-size: 14px;
+            margin: 0 0 0 15px;
+        }
+    }
+    .post-img {
+        margin: 0 0 25px;
+    }
+    .post-share {
+        .social-profile {
+            li{
+                a{
+                   width: 30px;
+                   height: 30px;
+                   i{
+                    font-size: 15px;
+                   }
+                }
+            }
+        }
+    }
+    .author-info-wrap {
+        .author-info {
+            h6 {
+                font-size: 15px;
+            }    
+        }
+     }
+     .reply-btn {
+         font-size: 14px;
+     }
+     .post-tag {
+         margin-bottom: 15px;
+        
+         ul {
+            li{
+                a {
+                    font-size: 13px;
+                }
+            }
+         }
+     }
+    .comment-item-wrap {
+        .comment-item {
+            margin-bottom: 15px;
+            padding-bottom: 20px;
+            &.reply{
+                margin-left: 25px;
+            }
+            .comment-author-img {
+                width: 65px;
+                height: 65px;
+            }
+            .comment-author-wrap {
+                width: 100%;
+                margin-left: 0;
+                margin-top: 20px;
+                .comment-author-name{
+                    margin-bottom: 15px;
+                    h5{
+                        font-size: 20px;
+                    }
+                    .comment-date{
+                        margin-bottom: 13px;
+                        font-size: 14px;
+                    }
+                }
+                .comment-text{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    #cmt-form {
+         .comment-form{
+             .form-group{
+                 margin-bottom: 15px;
+                 label{
+                     font-size: 14px;
+                 }
+                 input{
+                     height: 54px;
+                 }
+             }
+         }
+     }
+    .tag-list {
+        ul {
+            li {
+                margin: 9px 6px 0px 0px;
+            }    
+        }
+    }
+    .pp-post-item {
+        .pp-post-img {
+            width: 80px;
+        }
+        .pp-post-info {
+            width: calc(100% - 95px);
+            h6 {
+                font-size: 15px;
+                line-height: 22px;
+            }
+        }
+    }
+    //Appointment CSS
+    #appointment-form{
+        padding: 20px;
+    }
+    //Sidebar CSS
+    .sidebar{
+        .sidebar-widget{
+            padding: 25px;
+            &.contact-widget{
+                padding: 25px 25px 30px;
+            }
+        }
+    }
+    //Error CSS
+    .error-wrap{
+        .error-content{
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container-fluid{
+        max-width: 720px;
+        padding-left:15px;
+        padding-right:15px;
+    }
+    .pt-100 {
+        padding-top: 70px
+    }
+    .pb-100 {
+        padding-bottom: 70px;
+    }
+    .mt-100 {
+        margin-top: 70px!important;
+    }
+    .pb-50 {
+        padding-bottom: 20px
+    }
+    .pb-70 {
+        padding-bottom: 35px;
+    }
+    .ptb-100 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .pt-70 {
+        padding-top: 40px;
+    }
+    .pb-70 {
+        padding-bottom: 40px;
+    }
+    .pb-75 {
+        padding-bottom: 45px
+    }
+    .pb-50 {
+        padding-bottom: 20px
+    }
+    .pt-75 {
+        padding-top: 45px
+    }
+    .breadcrumb-wrap{
+        padding: 145px 0 80px;
+        .breadcrumb-content{
+            h2{
+                font-size: 32px;
+                margin: 0 0 10px;
+            }
+        }
+    }
+    .section-title-one,
+    .content-title-one{
+        h2{
+            font-size: 34px;
+            line-height: 48px;
+        }
+    }
+     //Hero CSS
+     .hero-wrap{
+        &.hero-one{
+            .hero-slide-item{
+                padding: 300px 0 350px;
+                .hero-content{
+                    max-width: 558px;
+                    &:after{
+                        width: 358px;
+                    }
+                    .hero-bg-shape-one{
+                        top: 52px;
+                        width: 485px;
+                        height: 100px;
+                    }
+                    .hero-bg-shape-two{
+                        top: 152px;
+                        content: "";
+                        width: 585px;
+                        height: 102px;
+                    }
+                    .hero-bg-shape-three{
+                        width: 660px;
+                        height: 100px;
+                    }
+                }
+            }
+        }
+        &.hero-two{
+            padding: 130px 0 0;
+            .hero-content{
+                padding-top: 0;
+                h1{
+                    font-size: 39px;
+                    img{
+                        max-width: 100px;
+                    }
+                }
+                .client-likes{
+                    ul{
+                        margin-right: 27px;
+                        li{
+                            width: 49px;
+                            height: 49px;
+                        }
+                    }
+                }
+                .hero-doc-card{
+                    margin-bottom: 40px;
+                    max-width: 360px;
+                    right: -20px;
+                    padding: 25px 20px;
+                    position: relative;
+                    .doc-info{
+                        h3{
+                            font-size: 18px;
+                        }
+                    }
+                    .btn-three{
+                        font-size: 14px;    
+                    }
+                }
+            }
+            .hero-img-wrap{
+                img{
+                    margin-bottom: -52px;
+                }
+            }
+        }
+        &.hero-three{
+            padding: 145px 0 245px;
+            .hero-shape-one{
+                display: none;
+            }
+            .hero-promo-wrap{
+                margin-top: 50px;
+            }
+        }
+    }
+    .hero-gallery-slider{
+        position: relative;
+        z-index: 1;
+        margin-top: -25%;
+    }
+    // New demo
+    .banner-area-four {
+        .hero-items {
+            .banner-four-bg {
+                padding-top: 100px;
+                padding-bottom: 100px;
+                .container-fluid {
+                    max-width: 720px;
+                }
+                .content {
+                    max-width: 680px;
+                    h1 {
+                        font-size: 50px;
+                        line-height: 68px;
+                        margin-bottom: 15px;
+                    }
+                    p {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    //Why Choose CSS
+    .wh-wrap-four,
+    .wh-wrap-three{
+        .wh-img-wrap{
+            .wh-img{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    //Pricing Card CSS
+    .pricing-card {
+        .pricing-features {
+            padding: 35px 20px 30px 140px;
+        }
+    }
+    //Process Card CSS
+    .process-card-wrap{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:1fr auto;
+    }
+    //Testimonial CSS
+    .testimonial-wrap-three{
+        .testimonial-btn{
+            bottom: 30px;
+            margin-bottom: 35px;
+            
+        }
+    }
+    .testimonial-wrap-two{
+        .testimonial-btn{
+            margin-top: 25px;
+            
+        }
+    }
+    //Video CSS
+    .video-bg,
+    .video-bg-two{
+        height: 500px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .md-none {
+        display: none !important;
+    }
+    .mt-60 {
+        margin-top: 30px !important;
+    }
+    .md-center {
+        text-align: center !important;
+    }
+    .error-wrap{
+        margin-top: 65px;
+    }
+    //hero CSS
+    .hero-wrap{
+        &.hero-one{
+            margin-top: 65px;
+        }
+    }
+    //Why Choose CSS
+    .wh-wrap-four,
+    .wh-wrap-three{
+        .wh-img-wrap{
+            margin-top: 30px;
+        }
+    }
+    //about CSS
+    .about-wrap-one{
+        .about-content{
+            margin-top: 30px;
+        }
+        &:after{
+           display: none;
+        }
+        .about-thumb-img {
+            bottom: -50px;
+            max-width: 120px;
+        }
+    }
+    .about-wrap-two,
+    .about-wrap-three{
+        .about-content{
+            margin-top: 30px;
+        }
+    }
+    .help-wrap-two{
+        .help-content{
+            margin-bottom: 25px;
+        }
+        .help-img-wrap{
+            .help-img{
+                .help-img-shape{
+                    left: 0;
+                }
+            }
+        }
+    }
+    //Project Details CSS
+    .project-details-wrap{
+        .project-brief{
+            margin-bottom: 25px;
+        }
+    }
+    //Appointment CSS
+    .appointment-wrap-two{
+        padding-bottom: 0;
+        .appointment-bg-one{
+            width: 100%;
+            height: 100%;
+        }
+        .video-bg-three{
+            position: relative;
+            top: auto;
+            right: auto;
+            width: 100%;
+            height: 100%;
+            height: 400px;
+            margin-top: 35px;
+        }
+        .appointment-form-one{
+            h3{
+                font-size: 28px;
+                line-height: 37px;
+            }
+        }
+    }
+    //Service CSS
+    .service-wrap{
+        .service-content{
+            margin-bottom: 25px;
+            .content-title-one{
+                p{
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+    //Single Product CSS
+    .single-product-details{
+        margin-top: 25px;
+    } 
+    .client-review.comment-item-wrap{
+        margin-bottom: 25px;
+    }
+   //Cart & Checkout CSS
+   .coupon-code{
+        margin-bottom: 20px;
+        input{
+            height: 56px;
+        }
+        button{
+            padding: 5px 12px;
+        }
+    }
+    
+    .cart-total{
+        padding: 20px;
+    }
+    .cart-table {
+        width: 100%;
+        overflow-x: auto;
+    }
+    .checkout-footer {
+        margin-bottom: 30px;
+    }
+    .cart-table table td:nth-child(2),
+    .cart-table table th:nth-child(2) {
+        min-width: 180px;
+        .cart-item{
+            font-size: 14px;
+            margin-left: 0;
+        }
+    }
+    .cart-table table thead tr th {
+        padding: 15px;
+        font-size: 14px;
+    }
+    .cart-table table tbody tr td .cart-item a,
+    .cart-table table tbody tr td .cart-item-price {
+        font-size: 14px;
+    }
+    .cart-coupon{
+        padding: 15px;
+        .update-cart{
+            margin-top: 20px;
+            display: block;
+            width: 100%;
+        }
+    }
+    .cart-total {
+        padding: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .coupon-code {
+        input {
+            padding: 10px 50px 10px 15px;
+            border-radius: 0;
+        }
+        button {
+            padding: 5px 15px;
+            font-size: 14px;
+        }
+    }
+    .checkout-details-two {
+        padding: 25px 20px 0px;
+    }
+    .checkout-details .bill-item .bill-item-price,
+    .checkout-details .bill-item-footer .bill-item-price,
+    .checkout-details .bill-item-title .bill-item-price,
+    .checkout-details-two .bill-item .bill-item-price,
+    .checkout-details-two .bill-item-footer .bill-item-price,
+    .checkout-details-two .bill-item-title .bill-item-price {
+        font-size: 14px;
+    }
+    
+   //Help CSS
+   .help-wrap{
+        &:before{
+            right: auto;
+            left: 0;
+            width: 100%;
+            background: linear-gradient(-280deg, rgba(250,245,241,1) 0%, rgba(250,245,241,0.64) 93%);
+        }
+    }
+    
+}
+@media only screen and (max-width:1199px) {
+    .lg-none{
+        display: none!important;
+    }
+    .sidebar{
+        margin-top: 50px;
+    }
+    //Feature Card CSS
+    .feature-card-wrap .row > div .feature-card::after,
+    .feature-card-wrap-two .row > div .feature-card::after {
+        display: none;
+    }
+    //Testimonial CSS
+    .testimonial-wrap-two,
+    .testimonial-wrap-three{
+        .testimonial-btn{
+            position: relative;
+            top: auto;
+            left: auto;
+            width: 120px;
+            transform: translateY(0);
+            .testimonial-button-prev,
+            .testimonial-button-next{
+                img{
+                    max-width: 30px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width:992px){
+    .hero-wrap{
+        &.hero-one{
+            margin-top: 100px;
+        }
+        
+    }
+    .hero-gallery-slider{
+        position: relative;
+        z-index: 2;
+        margin-top: -16%;
+    }
+    .appointment-form-one{
+        margin-top: -172px;
+    }
+    .error-wrap{
+        margin-top: 100px;
+    }
+
+}
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .section-title-one,
+    .content-title-one{
+        h2{
+            font-size: 36px;
+            line-height: 49px;
+        }
+    }
+    .breadcrumb-wrap{
+        padding: 180px 0 80px;
+    }
+    .breadcrumb-content {
+        .breadcrumb-menu {
+            li{
+                &:after {
+                    top: 3px;
+                }
+            }
+        }
+    }
+    //Hero CSS
+    .hero-wrap{
+        &.hero-one{
+            .hero-slide-item{
+                padding: 300px 0;
+                .hero-content{
+                    h1{
+                        font-size: 54px;
+                        line-height: 72px;
+                        max-width: 70%;
+                    }
+                }
+            }
+        }
+        &.hero-two{
+            .hero-content{
+                padding-top: 22px;
+                h1{
+                    font-size: 39px;
+                    img{
+                        max-width: 100px;
+                    }
+                }
+                .client-likes{
+                    ul{
+                        margin-right: 27px;
+                        li{
+                            width: 49px;
+                            height: 49px;
+                        }
+                    }
+                }
+                .hero-doc-card{
+                    margin-bottom: 30px;
+                    max-width: 360px;
+                    right: -20px;
+                    padding: 25px 20px;
+                    position: relative;
+                    .doc-info{
+                        h3{
+                            font-size: 18px;
+                        }
+                    }
+                    .btn-three{
+                        font-size: 14px;    
+                    }
+                }
+            }
+            .hero-img-wrap{
+                img{
+                    margin-bottom: -52px;
+                }
+            }
+        }
+        &.hero-three{
+            padding: 195px 0 205px;
+            .hero-promo-wrap{
+                justify-content: flex-end;
+                .circle-text{
+                    margin: -50px 0 20px;
+                }
+            }
+        }
+    }
+    // New demo
+    .banner-area-four {
+        .hero-items {
+            .banner-four-bg {
+                padding-top: 100px;
+                padding-bottom: 100px;
+                .container-fluid {
+                    max-width: 960px;
+                }
+                .content {
+                    max-width: 720px;
+                    h1 {
+                        font-size: 50px;
+                        line-height: 68px;
+                        margin-bottom: 15px;
+                    }
+                    p {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    //Video CSS
+    .video-bg,
+    .video-bg-two{
+        height: 500px;
+    }
+    //about CSS
+    .about-wrap-one{
+        &:after{
+            width: 50.6%;
+        }
+        .about-thumb-img {
+            bottom: -50px;
+            max-width: 120px;
+        }
+    }
+    .about-wrap-three{
+        .about-content{
+            .counter-wrap{
+                padding: 25px;
+                .counter-card{
+                    padding-right: 25px;
+                    &:last-child{
+                        padding-right: 0;
+                    }
+                    h2{
+                        font-size: 36px;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    //Pricing Card CSS
+    .pricing-card {
+        .pricing-features {
+            padding: 35px 20px 30px 140px;
+        }
+    }
+    //Testimonial CSS
+    .testimonial-wrap-three{
+        .testimonial-btn{
+            bottom: 50px;
+            margin-bottom: 50px;
+            
+        }
+    }
+    .testimonial-wrap-two{
+        .testimonial-btn{
+            bottom: 0;
+            margin-top: 30px;
+        }
+    }
+    //Service CSS
+    .service-wrap{
+        .container-fluid{
+            padding-left: calc((100% - 960px) / 2 + 12px);
+            padding-right: 0;
+        }
+    }
+    //Single Product CSS
+    .single-product-img{
+        img{
+            max-width: 350px;
+        }
+    }
+    .login-form-wrap {
+        .fb-btn,
+        .gg-btn{
+            font-size: 14px;
+        }
+    }
+   
+}
+@media only screen and (min-width:1200px) {
+    .xl-none {
+        display: none !important;
+    }
+    
+    //Feature Card CSS
+    .feature-card-wrap,
+    .feature-card-wrap-two{
+        .row{
+            &>div{
+                &:nth-child(2),
+                &:nth-child(3){
+                    padding-left: 50px;
+                }
+            }
+        }
+    }
+    //Service CSS
+    .service-wrap{
+        .container-fluid{
+            padding-left: calc((100% - 1140px) / 2 + 12px);
+            padding-right: 0;
+        }
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    //Hero CSS
+    .hero-wrap{
+        &.hero-one{
+            .hero-slide-item{
+                .hero-content{
+                    h1{
+                        font-size: 60px;
+                        line-height: 72px;
+                        max-width: 76%;
+                    }
+                }
+            }
+        }
+        &.hero-two{
+            .hero-content{
+                padding-top: 22px;
+                h1{
+                    img{
+                        max-width: 120px;
+                    }
+                }
+                .hero-doc-card{
+                    margin-bottom: 30px;
+                    max-width: 400px;
+                    right: -20px;
+                    padding: 25px 20px;
+                    position: relative;
+                    .doc-info{
+                        h3{
+                            font-size: 18px;
+                        }
+                    }
+                    .btn-three{
+                        font-size: 14px;    
+                    }
+                }
+            }
+            .hero-img-wrap{
+                img{
+                    margin-bottom: -52px;
+                }
+            }
+        }
+        &.hero-three{
+            padding: 195px 0 255px;
+        }
+    }
+    .hero-gallery-wrap{
+        margin-bottom: -20px;
+    }
+    // New demo CSS
+    .banner-area-four {
+        .hero-items {
+            .banner-four-bg {
+                padding: {
+                    top: 150px;
+                    bottom: 150px;
+                };
+                .container-fluid {
+                    max-width: 1140px;
+                }
+                .content {
+                    h1 {
+                        font-size: 60px;
+                        line-height: 80px;
+                    }
+                }
+            }
+            .hero-slider-button {
+                .swiper-button-prev {
+                    top: 45%;
+                    left: 5px;
+                    width: 50px;
+                    height: 50px;
+                    &::after {
+                        font-size: 18px;
+                    }
+                }
+                .swiper-button-next {
+                    top: 45%;
+                    right: 5px;
+                    width: 50px;
+                    height: 50px;
+                    &::after {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    //Video CSS
+    .video-bg,
+    .video-bg-two{
+        height: 600px;
+    }
+    //Feature Card CSS
+    .feature-card-wrap .row > div .feature-card::after,
+    .feature-card-wrap-two .row > div .feature-card::after {
+        right: -15px;
+    }
+    //about CSS
+    .about-wrap-one{
+        &:after{
+            width: 50.6%;
+        }
+        .about-thumb-img {
+            bottom: -50px;
+            max-width: 180px;
+        }
+    }
+    
+}
+@media only screen and (min-width: 1200px) and (max-width: 1280px) {
+    //Testimonial CSS
+    .testimonial-wrap-two,
+    .testimonial-wrap-three{
+        .testimonial-btn{
+            width: 1140px;
+        }
+    }
+}
+@media only screen and (min-width: 1280px) and (max-width: 1399px) {
+    //Testimonial CSS
+    .testimonial-wrap-two,
+    .testimonial-wrap-three{
+        .testimonial-btn{
+            width: 1240px;
+        }
+    }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+    //hero CSS
+    .hero-wrap{
+        &.hero-two{
+            .hero-content{
+                padding-top: 70px;
+                .hero-doc-card{
+                    margin-bottom: 30px;
+                }
+            }
+            .hero-img-wrap{
+                img{
+                    margin-bottom: -52px;
+                }
+            }
+        }
+    }
+    .about-wrap-one::after {
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .container{
+        max-width: 1340px;
+    }
+    .sidebar{
+        .sidebar-widget{
+            padding: 25px;
+        }
+    }
+    .section-title,
+    .content-title{
+        h2{
+            font-size: 40px;
+            line-height: 54px;
+        }
+    }
+    //Hero CSS
+    .hero-wrap{
+        &.hero-one{
+            .hero-slide-item{
+                .hero-content{
+                    h1{
+                        font-size: 70px;
+                        line-height: 82px;
+                        max-width: 76%;
+                    }
+                }
+            }
+        }
+        &.hero-two{
+            .hero-content{
+                h1{
+                    font-size: 54px;
+                    line-height: 68px;
+                }
+            }
+        }
+        &.hero-three{
+            .hero-promo-wrap{
+                .circle-text {
+                    margin-left: 100px;
+                }
+            }
+            .hero-content{
+                h1{
+                    font-size: 70px;
+                    line-height: 80px;
+                }
+            }
+        }
+    }
+    //Testimonial Card CSS
+    .testimonial-card-three{
+        margin: 0 100px;
+    }
+    //Process CSS
+    .process-card-wrap{
+        grid-gap: 104px;
+    }
+    //About CSS
+    .about-wrap-three .about-content .counter-wrap {
+        padding: 34px 40px 25px;
+    }
+    //sidebar CSS
+    .sidebar {
+        .sidebar-widget{
+            padding: 30px 38px 35px;
+            margin-bottom: 30px;
+        }
+        .contact-widget{
+            padding: 35px 38px 40px;
+        }
+    }
+    //Service CSS
+    .service-wrap{
+        .container-fluid{
+            padding-left: calc((100% - 1320px) / 2 + 12px);
+            padding-right: 0;
+        }
+    }
+    .service-card-two,
+    .service-card-three{
+        padding: 35px 39px;
+        .service-info{
+            .link-two{
+                font-size: 18px;
+            }
+        }
+    }
+    //Appointmnet CSS
+    .appointment-content{
+        .content-title-one{
+            margin-bottom: 25px;
+        }
+        .feature-list-wrap{
+            .feature-list{
+                p{
+                    padding-right: 75px;
+                }
+            }
+        }
+    }
+    .appointment-form-one{
+        padding: 60px 50px;
+    }
+    //Why Choose CSS
+    .wh-wrap-three,
+    .wh-wrap-four{
+        .wh-img-wrap{
+            width: calc(100% - 65px);
+            margin-left: auto;
+        }
+    }
+    .wh-card-one{
+        padding: 36px 16px 36px 33px;
+    }
+    //testimonial CSS
+    .testimonial-card-one,
+    .testimonial-card-four{
+        padding: 30px 40px;
+    }
+    .testimonial-wrap-two,
+    .testimonial-wrap-three{
+        .testimonial-btn{
+            width: 1440px;
+        }
+    }
+    .login-form-wrap {
+        padding: 50px;
+    }
+}
+@media only screen and (min-width: 1600px) {
+    .ps-xxl-6{
+        padding-left: 5rem !important;
+    }
+    .ps-xxl-7{
+        padding-left: 9.5rem !important;
+    }
+    .btn-one,
+    .btn-two,
+    .btn-three,
+    .btn-four{
+        font-size: 18px;
+        padding: 18px 24px 14px;
+    }
+    .section-title-one,
+    .content-title-one{
+        &.text-center{
+            h2{
+                padding: 0 20px;
+            }
+        }
+    }
+    .breadcrumb-content{
+        .breadcrumb-menu {
+            li{
+                font-size: 18px;
+                line-height: 20px;
+            }
+        }
+    }
+    //Hero CSS
+    .hero-wrap{
+        .container{
+            max-width: 1540px;
+        }
+        &.hero-two{
+            .hero-content{
+                h1{
+                    font-size: 70px;
+                    line-height: 80px;
+                }
+            }
+        }
+        &.hero-three{
+            .hero-content{
+                h1{
+                    font-size: 80px;
+                    line-height: 90px;
+                }
+            }
+        }
+    }
+    .hero-gallery-wrap{
+        .container{
+            max-width: 1540px;
+        }
+    }
+    //About CSS
+    .about-wrap-one{
+        .about-img{
+            width: calc(100% + 20px);
+        }
+        .about-content{
+            width: calc(100% - 42px);
+            margin-left: auto;
+        }
+        .about-thumb-img {
+            right: 250px;
+        }
+    }
+    .about-wrap-two{
+        .about-img-wrap{
+            width: calc(100% + 72px);
+        }
+        .about-content{
+            width: calc(100% - 115px);
+            margin-left: auto;
+        }
+    }
+    .about-wrap-three{
+        .about-img-wrap{
+            width: calc(100% + 72px);
+        }
+        .about-content{
+            width: calc(100% - 75px);
+            margin-left: auto;
+        }
+    }
+    .help-wrap-two{
+        .help-content{
+            width: calc(100% - 110px);
+        }
+        .help-img-wrap{
+            width: calc(100% + 50px);
+            margin-left: -50px;
+        }
+    }
+    //Why Choose Us
+    .wh-wrap-four{
+        .wh-content{
+            width: calc(100% - 120px);
+        }
+        .wh-img-wrap{
+            width: calc(100% + 50px);
+            margin-left: -50px;
+        }
+    }
+    //service CSS
+    .service-wrap{
+        .service-slider-one{
+            width: calc(100% - 85px);
+            margin-left: auto;
+        }
+    }
+    //Process Section CSS
+    .process-card{
+        max-width: 370px;
+        padding: 45px 40px 45px 40px;
+        h3{
+            padding-right: 40px;
+        }
+    }
+    //Appointment CSS
+    #appointment-form{
+        padding: 58px 50px;
+    }
+    //Pricing CSS
+    .promo-card{
+        h3{
+            max-width: 70%;
+        }
+    }
+    //Feature Card CSS
+    .feature-card-wrap,
+    .feature-card-wrap-two{
+        .row{
+            &>div{
+                &:nth-child(2),
+                &:nth-child(3){
+                    padding-left: 60px;
+                    .feature-card{
+                        p{
+                            max-width: 90%;
+                        }
+                    }
+                }
+                .feature-card{
+                    &:after{
+                        right: -5px;
+                    }
+                }
+            }
+        }
+    }
+    .feature-card{
+        p{
+            max-width: 82%;
+        }
+        .feature-counter {
+            right: 102px;
+        }
+        &:after{
+            right: 7px;
+        }
+    }
+    //Testimonial CSS
+    .testimonial-card-two{
+        padding: 0 55px;
+    }
+    //help CSS
+    .help-wrap{
+        .help-content{
+            width: calc(100% - 7px);
+            margin-left: auto;
+        }
+    }
+    //Blog CSS
+    .blog-wrap-two{
+        .blog-card-one,
+        .blog-card-two{
+            margin-bottom: 40px;
+        }
+    }
+    //Service Details CSS
+    .service-details-wrap{
+        .features-item-wrap{
+            .feature-item{
+                p{
+                    padding-right: 35px;
+                }
+            }
+        }
+    }
+    //Contact CSS
+    .contact-item-wrap{
+        .contact-item {
+            padding: 30px;
+        }
+    }
+    //Product Details CSS
+    .single-product-img{
+        width: calc(100% - 20px);
+    }
+    .cart-total {
+        padding: 55px 45px 35px;
+    }
+    .checkout-wrap{
+        padding: 47px 35px 22px;
+    }
+}
+@media only screen and (min-width:1920px) {
+    .hero-wrap{
+        .container{
+            max-width: 1720px;
+        }
+        &.hero-two{
+            .hero-content{
+                h1{
+                    font-size: 80px;
+                    line-height: 90px;
+                }
+                 .hero-doc-card {
+                    position: relative;
+                    right: -56px;
+                    margin-top: -55px;
+                    margin-bottom: 62px;
+                }
+                .btn-one{
+                    padding: 18px 32px 14px;
+                }
+            }
+        }
+    }
+    .hero-gallery-wrap{
+        .container{
+            max-width: 1720px;
+        }
+    }
+}
